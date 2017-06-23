@@ -5,7 +5,9 @@
 package traductor.siglas;
 
 /**
- *
+ * Traductor de Siglas: Tratamiento de Ficheros
+ * Dado un fichero de entrada con siglas devolver otro fichero con el signifacado
+ * de cada una de las siglas.
  * @author richardcj
  */
 public class TraductorSiglas {
