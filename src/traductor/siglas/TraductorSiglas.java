@@ -3,6 +3,7 @@
  * and open the template in the editor.
  */
 package traductor.siglas;
+import traductor.siglas.ReadFile;
 
 /**
  * Traductor de Siglas: Tratamiento de Ficheros
@@ -18,5 +19,7 @@ public class TraductorSiglas {
     public static void main(String[] args) {
         // TODO code application logic here
         System.err.println("Hello Friend :)");
+        ReadFile obj = new ReadFile();
+        obj.readFile();
     }
 }
